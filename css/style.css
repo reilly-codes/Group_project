@@ -1,3 +1,130 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.utility-bar {
+  position: fixed;
+  padding: 4vh 10%;
+  right: 0;
+}
+
+.utility-bar .sign-up {
+  background: #2E42F1;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  color: #fff;
+  margin-right: 5px;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.utility-bar .sign-up:hover {
+  background: #932ef1;
+  -webkit-transition: .8s;
+  transition: .8s;
+  -webkit-box-shadow: 0 10px 8px #000000af;
+          box-shadow: 0 10px 8px #000000af;
+}
+
+.utility-bar .login {
+  background: #932ef1;
+  border: none;
+  border-radius: 5px;
+  padding: 7px 12px;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  color: #fff;
+  margin-right: 5px;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.utility-bar .login:hover {
+  background: #2E42F1;
+  -webkit-transition: .8s;
+  transition: .8s;
+  -webkit-box-shadow: 0 10px 8px #000000af;
+          box-shadow: 0 10px 8px #000000af;
+}
+
+.hero-section {
+  height: 100vh;
+  width: 100%;
+  background: url(../images/hero.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+.hero-section .site-name {
+  position: absolute;
+  right: 0;
+  margin: 15vh 5% 0 0;
+}
+
+.hero-section .site-name h1 {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.hero-section .call-act {
+  position: absolute;
+  margin: 50vh 20% 0 0;
+  right: 0;
+}
+
+.hero-section .call-act button {
+  padding: 10px 15px;
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+  background: #2E42F1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.3rem;
+  -webkit-transition: .8s;
+  transition: .8s;
+  -webkit-box-shadow: 0 10px 8px #000000af;
+          box-shadow: 0 10px 8px #000000af;
+}
+
+.hero-section .call-act button:hover {
+  background: #fff;
+  color: #2E42F1;
+  -webkit-transition: .8s;
+  transition: .8s;
+}
+
+.hero-section .site-description {
+  position: absolute;
+  margin: 80vh 5% 0 0;
+  right: 0;
+  width: 25%;
+}
+
+.hero-section .site-description p {
+  font-family: "Quicksand", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #000;
+}
 /*form*/
 form { 
     border: 3px solid #f1f1f1;
