@@ -176,11 +176,11 @@ input[type=text],
         padding-top: 16px; 
     } 
     @media screen and (max-width: 300px) { 
-        span.psw { 
+        span.pswd { 
             display: block; 
             float: none; 
         } 
-        .cancelbtn { 
+        .sgnbtn { 
             width: 100%; 
         } 
     } 
