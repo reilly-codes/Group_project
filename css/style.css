@@ -36,3 +36,21 @@ input[type=text],
         text-align: center; 
         margin: 24px 0 12px 0; 
     } 
+    .container { 
+        padding: 16px; 
+    } 
+    /*set the forgot password text*/ 
+      
+    span.psw { 
+        float: right; 
+        padding-top: 16px; 
+    } 
+    @media screen and (max-width: 300px) { 
+        span.psw { 
+            display: block; 
+            float: none; 
+        } 
+        .cancelbtn { 
+            width: 100%; 
+        } 
+    } 
