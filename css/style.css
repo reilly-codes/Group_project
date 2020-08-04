@@ -2,6 +2,12 @@
 form { 
     border: 3px solid #f1f1f1;
 }
+.important {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+  }
 input[type=text], 
     input[type=password] { 
         width: 100%; 
@@ -12,7 +18,8 @@ input[type=text],
         box-sizing: border-box; 
     }
     button { 
-        background-color: yellowgreen; 
+        background-color: yellowgreen;
+        align-content: center;
         color: white; 
         padding: 14px 20px; 
         margin: 8px 0; 
@@ -31,18 +38,14 @@ input[type=text],
     .imgcontainer { 
         text-align: center; 
         margin: 24px 0 12px 0; 
-    } 
-    .imgcontainer { 
-        text-align: center; 
-        margin: 24px 0 12px 0; 
-    } 
+    }
     .container { 
         padding: 16px; 
     } 
     /*set the forgot password text*/ 
       
-    span.psw { 
-        float: right; 
+    span.pswd { 
+        float: center; 
         padding-top: 16px; 
     } 
     @media screen and (max-width: 300px) { 
