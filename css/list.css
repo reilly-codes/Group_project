@@ -1,0 +1,128 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+body h1 {
+  margin-top: 2vh;
+  background: -webkit-gradient(linear, right top, left top, from(#2E42F1), color-stop(#3345ecde), color-stop(#7c35eddc), color-stop(#a030ebe1), to(#CE29E9));
+  background: linear-gradient(to left, #2E42F1, #3345ecde, #7c35eddc, #a030ebe1, #CE29E9);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+
+.interface {
+  background-image: -webkit-gradient(linear, right top, left top, from(#2E42F1), color-stop(#3345ecde), color-stop(#7c35eddc), color-stop(#a030ebe1), to(#CE29E9));
+  background-image: linear-gradient(to left, #2E42F1, #3345ecde, #7c35eddc, #a030ebe1, #CE29E9);
+  margin: 10vh 5%;
+  padding: 10vh 3%;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 10px 10px #000000a9;
+          box-shadow: 0 10px 10px #000000a9;
+}
+
+.interface .field {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: solid;
+  border-width: 1px;
+  border-color: #ffd;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background: #000000a4;
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.interface ::-webkit-input-placeholder {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.interface :-ms-input-placeholder {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.interface ::-ms-input-placeholder {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.interface ::placeholder {
+  color: #fff;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.interface #qty {
+  width: 50%;
+}
+
+.interface label {
+  color: #fff;
+  font-size: 1.3rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.interface .add-item {
+  padding: 5px 15px;
+  color: #2E42F1;
+  background: #fafafa;
+  outline: none;
+  border-width: 1px;
+  border-color: #2E42F1;
+  border-radius: 50%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0 auto;
+}
+
+.interface .add-item:hover {
+  -webkit-box-shadow: 0 5px 3px #000;
+          box-shadow: 0 5px 3px #000;
+  cursor: -webkit-grabbing;
+  cursor: grabbing;
+}
+
+.output {
+  padding: 0 10%;
+}
+
+.output span {
+  color: #000;
+  font-size: 1.3rem;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.output p {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=list.css.map */
