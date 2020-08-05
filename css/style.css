@@ -129,6 +129,9 @@
 form { 
     border: 3px solid #f1f1f1;
 }
+h2 {
+  color: blue;
+}
 .important {
     max-width: 500px;
     margin: auto;
@@ -176,11 +179,11 @@ input[type=text],
         padding-top: 16px; 
     } 
     @media screen and (max-width: 300px) { 
-        span.psw { 
+        span.pswd { 
             display: block; 
             float: none; 
         } 
-        .cancelbtn { 
+        .sgnbtn { 
             width: 100%; 
         } 
     } 
