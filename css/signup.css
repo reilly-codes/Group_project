@@ -9,7 +9,6 @@ form {
     font-weight: bolder;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0,3);
   }
-}
 .important {
     text-align: center;
 }
@@ -48,5 +47,8 @@ input[type=text],
       }
       .important img {
           width: 70px;
+          position: absolute;
+          top: 1px;
+          left: 270px;
       }
       
