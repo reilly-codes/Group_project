@@ -1,13 +1,33 @@
-db.collection("cart").doc().set({
-    userId: user.uid,
-    category: document.getElementById("category").value,
-    product: document.getElementById("itemName").value,
-    price: document.getElementById("price").value,
-    quantity: document.getElementById("qty").value
-})
-.then(function() {
-    console.log("Document successfully written!");
-})
-.catch(function(error) {
-    console.error("Error writing document: ", error);
-});
+function addToCart(category, product, price, quantity) {
+    var user = auth.currentUser;
+    db.collection("cart").add({
+        userId: user.uid,
+        category: category,
+        product: product,
+        price: parseInt(price),
+        quantity: parseInt(quantity)
+    })
+    .then(function(docRef) {
+        console.log("Document successfully written! " + docRef.id);
+    })
+    .catch(function(error) {
+        console.error("Error writing document: ", error);
+    });
+}
+
+// function getFromCart(category, product, price, quantity) {
+//     var user = auth.currentUser;
+//     db.collection("cart").onSnapshot(function(querySnapshot) {
+//         var cart = {
+//             userId: user.uid,
+//             category: category,
+//             product: product,
+//             price: parseInt(price),
+//             quantity: parseInt(quantity)
+//         };
+//         querySnapshot.forEach(function(doc) {
+//             cart.push(doc.data().name);
+//         });
+//         console.log("Current cities in CA: ", cart.join(", "));
+//     });
+// }  
