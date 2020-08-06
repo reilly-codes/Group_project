@@ -13,6 +13,7 @@ This is a convenient and modern smart shopping list. The Smart Shopping List is 
 # Project setup instructions
 This is a website and all that one needs to do is use the link provided to access the the website. It can run on any browser like Chrome and Mozilla Firefox. There are no installation procedures.
 # live link to github pages
+https://reilly-codes.github.io/Group_project/
 
 # contact information
 For any problems or queries, kindly contact us on wanzalaemmanuel28@gmail.com, andurupatricia@gmail.com, jroduory@gmail.com, josephjacob313@gmail.com
