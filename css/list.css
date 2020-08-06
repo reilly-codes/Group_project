@@ -110,6 +110,13 @@ body h1 {
 
 .output {
   padding: 0 10%;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.output .row {
+  margin-bottom: 1vh;
 }
 
 .output span {
@@ -120,9 +127,36 @@ body h1 {
   text-transform: uppercase;
 }
 
-.output p {
-  font-family: "Quicksand", sans-serif;
-  font-weight: 400;
-  text-transform: uppercase;
+.output .finished {
+  padding: 2px 6px;
+  outline: none;
+  border-width: 1px;
+  border-color: #009900;
+  background: transparent;
+  color: #009900;
+  cursor: -webkit-grab;
+  cursor: grab;
+  margin: 1vh 0;
+}
+
+.output .remove {
+  padding: 2px 6px;
+  outline: none;
+  border-width: 1px;
+  border-color: red;
+  background: transparent;
+  color: red;
+  cursor: -webkit-grab;
+  cursor: grab;
+  margin: 1vh 0;
+}
+
+.output .bought {
+  background: #000000a9;
+  color: #fff;
+}
+
+.output .bought .finished {
+  display: none;
 }
 /*# sourceMappingURL=list.css.map */
