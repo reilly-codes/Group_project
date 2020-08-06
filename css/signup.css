@@ -17,6 +17,10 @@ form {
     margin-bottom: 30px;
     text-align: center;
 }
+label {
+    float: left;
+  
+    }
 input[type=text], 
     input[type=password] { 
         width: 100%; 
