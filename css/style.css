@@ -4,6 +4,7 @@
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
+/*for landing page*/
 
 .utility-bar {
   position: fixed;
@@ -125,3 +126,4 @@
   color: #000;
 }
 /*# sourceMappingURL=style.css.map */
+

@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@600&display=swap" rel="stylesheet">
     <title>Sign Up</title>
 </head>
-<body>
+<body style="height: 100vh;">
     <div class="trial">
     <form>
         <div class="important">   
@@ -18,30 +18,36 @@
           <p>Please fill in this form to create an account.</p>
           <hr>
           <label for="email"><b>Email</b></label>
-          <input type="text" placeholder="Enter Email" name="email" required>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
           <br>
           <label for="psw"><b>Password</b></label>
-          <input type="password" placeholder="Enter Password" name="psw" required>
+          <input type="password" placeholder="Enter Password" name="psw" id="password" required>
           <br>
-          <label for="psw-repeat"><b>Repeat Password</b></label>
-          <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-          <br>
-          <label>
-            <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-          </label>
-           <br>
-          <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
-           <br>
           <div class="clearfix">
-            <button type="submit" class="signupbtn">Sign Up</button>
-            <button type="button" class="cancelbtn">Already have an Account?
+            <button type="button" class="signupbtn" id="signupbtn">Sign Up</button>
+            <button type="button" class="cancelbtn" id="loginbtn">Already have an Account?
               <br>
               </form>
               <h5><a href="login.html">Login</h5></a>
           </button>
           </div>
         </div>
-      </form>
-      </div>
+    </form>
+    </div>
+    
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-firestore.js"></script>
+    <script src="js/init-firebase.js"></script>
+    <script src="js/user-handler.js"></script>
+    <script src="js/auth.js"></script>
+
 </body>
 </html>

@@ -1,4 +1,5 @@
-var firebaseConfig = {
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
     apiKey: "AIzaSyBLinxxMUvxTqRyye-z9MVHhUpYKxHTjqw",
     authDomain: "shopping-list-d33a8.firebaseapp.com",
     databaseURL: "https://shopping-list-d33a8.firebaseio.com",
@@ -8,8 +9,7 @@ var firebaseConfig = {
     appId: "1:247425796518:web:fbdfb6bd70ae843ab5a767",
     measurementId: "G-H0XKKX47YC"
   };
-
-firebase.initializeApp(firebaseConfig);
-// firebase.auth();
-// firebase.analytics();
-// firebase.database();
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+  var db = firebase.firestore();
