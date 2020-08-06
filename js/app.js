@@ -3,33 +3,39 @@ var itemName = ''
 var price = 0
 var qty = 0
 var addItem = document.getElementById("addItem");
+var estimateAmount = 0
 
 //get category
 function getCategory() {
     category = document.getElementById("category[]").value;
-    console.log(category);
+    //console.log(category);
 }
 
 //get item name 
 function getItem() {
     itemName = document.getElementById("itemName").value;
-    console.log(itemName);
+    //console.log(itemName);
+
 }
 
 //get pprice
 function getPrice() {
     price = document.getElementById("price").value;
-    console.log(price);
+    //console.log(price);
 }
 
 // get qty
 function getQty() {
     qty = document.getElementById("qty").value;
-    console.log(qty);
+    //console.log(qty);
 }
 
 //calculate total
+function total() {
+    estimateAmount = parseInt(qty) * parseInt(price);
+    console.log(estimateAmount);
 
+}
 
 //function reset
 function formReset() {
@@ -84,6 +90,9 @@ function display() {
     colFive.appendChild(boughtItem);
     colSix.appendChild(removeItem);
 }
+
+
+
 addItem.addEventListener("click", function add(event){
     event.preventDefault();
     getCategory();
@@ -91,6 +100,9 @@ addItem.addEventListener("click", function add(event){
     getPrice();
     getQty();
     display();
+    addToCart(category, itemName, price, qty);
+    getFromCart(category, itemName, price, qty);
+    total();
     formReset();
 });
 
