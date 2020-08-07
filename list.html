@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/list.css">
+
+<body>
+<div class="container">
+    <div>
+        <h2 id="order">My Shopping list</h2>
+        <div>
+            <label class="category" for="select">Category</label>
+            <select class="browser-default custom-select custom-select-md mb-3 name">
+              <option selected value="0">Select here</option>
+              <option value="dairy">Dairy Products</option>
+              <option value="fruits">Fruits</option>
+              <option value="vegetables">Vegetables</option>
+              <option value="groceries">Groceries</option>
+              <option value="stationaries">Stationaries</option>
+              <option value="kitchenwares">Kitchen wares</option>
+              <option value="clothes">Clothing</option>
+              <option value="electonics">Electonics</option>
+              <option value="drinks">Drinks</option>
+              <option value="shoes">Shoes</option>
+              <option value="cereals">Cereals</option>
+              <option value="toiletries">Toiletries</option>
+            </select>
+        </div>
+        <div>
+            <label for="select">Input Item:</label>
+            <input placeholder="input item">
+        </div>
+        <div>
+            <label>Input price!:</label> <br>
+                <input type="number" placeholder="enter amount">
+        </div>
+        <div>
+            <button type="submit">Proceed</button>
+        </div>
+    </div>
+    <div>
+        <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Category</th>
+                <th scope="col">Item</th>
+                <th scope="col">Price</th>
+              </tr>
+            </thead>
+          </table>
+    </div>
+    <div>
+        <button>Add Item</button>
+        <button>Checkout</button>
+    </div>
+</div>
+  <script src="script.js"></script> 
+</body>
+<script src="js/script.js"></script>
+</html>  
+</body>
+</html>
